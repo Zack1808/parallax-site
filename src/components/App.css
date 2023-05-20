@@ -1,4 +1,5 @@
 /* Styling the App */
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap");
 
 *,
 *::before,
@@ -11,7 +12,8 @@
 
 .app-container {
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
   overflow-y: auto;
   overflow-x: hidden;
+  perspective: 10px;
 }
