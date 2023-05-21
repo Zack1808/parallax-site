@@ -3,6 +3,7 @@ import React, { useRef, useEffect } from "react";
 // Importing the costume components
 import Hero from "./Hero/Hero";
 import Segment from "./Segment/Segment";
+import Footer from "./Footer/Footer";
 
 // Importing the style file
 import "./App.css";
@@ -72,6 +73,7 @@ const App = () => {
         ref={{ ref1: titleRef2, ref2: backgroundRef2 }}
       />
       <Segment paragraphs={paragraphs} />
+      <Footer />
     </div>
   );
 };
