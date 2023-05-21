@@ -17,7 +17,7 @@ const Hero = React.forwardRef(
     // separating the refs
     const { ref1, ref2 } = ref;
     return (
-      <div className="hero-container">
+      <div className={`hero-container ${foregroundSide}`}>
         <img src={background} alt="" className="background" ref={ref2} />
         <img
           src={foreground}

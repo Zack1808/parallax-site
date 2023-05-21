@@ -31,7 +31,8 @@
   bottom: -15%;
 }
 
-.hero-container h1 {
+.hero-container.left h1,
+.hero-container.right h1 {
   color: hsl(0, 0%, 100%);
   font-family: "IBM Plex Sans", sans-serif;
   font-size: clamp(3rem, 10vw, 9rem);
@@ -40,10 +41,15 @@
   right: 0;
   text-align: center;
   max-width: 12ch;
-  text-shadow: 0 0 70px hsl(0 0% 100%);
+  text-shadow: 0 0 70px hsl(0 0% 100%), 0 0 5px hsl(0 0% 0%);
   transform: translateZ(-5px) scale(1.5);
   z-index: -2;
   text-transform: capitalize;
+}
+
+.hero-container.right h1 {
+  left: -40vw;
+  right: auto;
 }
 
 .hero-container::before {
@@ -53,4 +59,38 @@
   bottom: 0;
   height: 100px;
   background: linear-gradient(to top, hsl(0 0% 0%), transparent);
+}
+
+.foreground.right {
+  transform: translateZ(-5px) scale(1.2);
+  right: -30vw;
+}
+
+.hero-container.right {
+  z-index: -2;
+}
+
+.hero-container.right::after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  top: 0;
+  height: 100px;
+  background: linear-gradient(to bottom, hsl(0 0% 0%), transparent);
+}
+
+.hero-container.right .background {
+  left: -4em;
+}
+
+@media (width < 800px) {
+  .foreground.right {
+    right: -150vw;
+    width: 200%;
+  }
+
+  .hero-container.right h1 {
+    z-index: 1;
+    left: -120vw;
+  }
 }

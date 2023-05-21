@@ -10,13 +10,17 @@ import "./App.css";
 // Importing the images
 import earthBg from "../images/earth_bg.jpg";
 import earth from "../images/earth.png";
+import earth2Bg from "../images/earth2_bg.jpg";
+import earth2 from "../images/earth2.png";
 
 // Creating the App component
 const App = () => {
   // Setting up the ref
   const scrollRef = useRef();
-  const titleRef = useRef();
-  const backgroundRef = useRef();
+  const titleRef1 = useRef();
+  const backgroundRef1 = useRef();
+  const titleRef2 = useRef();
+  const backgroundRef2 = useRef();
 
   // Setting up the paragraph list
   const paragraphs = [
@@ -27,13 +31,17 @@ const App = () => {
 
   // Function that will handle the moving of the text
   const scrollEfect = () => {
-    if (titleRef && titleRef.current) {
-      titleRef.current.style.marginRight = `${
-        scrollRef.current.scrollTop * 0.03
-      }vw`;
-      backgroundRef.current.style.marginLeft = `${
-        scrollRef.current.scrollTop * 0.003
-      }vw`;
+    if (titleRef1 && titleRef1.current) {
+      titleRef1.current.style.marginRight = `${scrollRef.current.scrollTop *
+        0.03}vw`;
+      backgroundRef1.current.style.marginLeft = `${scrollRef.current.scrollTop *
+        0.003}vw`;
+    }
+    if (titleRef2 && titleRef2.current) {
+      titleRef2.current.style.marginLeft = `${scrollRef.current.scrollTop *
+        0.03}vw`;
+      backgroundRef2.current.style.marginLeft = `${scrollRef.current.scrollTop *
+        0.003}vw`;
     }
   };
 
@@ -53,7 +61,15 @@ const App = () => {
         background={earthBg}
         foreground={earth}
         title="Discover the undiscovered"
-        ref={{ ref1: titleRef, ref2: backgroundRef }}
+        ref={{ ref1: titleRef1, ref2: backgroundRef1 }}
+      />
+      <Segment paragraphs={paragraphs} />
+      <Hero
+        background={earth2Bg}
+        foreground={earth2}
+        foregroundSide="right"
+        title="Explore"
+        ref={{ ref1: titleRef2, ref2: backgroundRef2 }}
       />
       <Segment paragraphs={paragraphs} />
     </div>
