@@ -32,7 +32,7 @@ self.__precacheManifest = [
     "url": "/parallax-site/static/media/earth2.0f8702d2.png"
   },
   {
-    "revision": "44709a76a46177d6ee78bd564868b220",
+    "revision": "908da944d88f02eac00a35381524a7c7",
     "url": "/parallax-site/index.html"
   }
 ];
