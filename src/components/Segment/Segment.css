@@ -1,0 +1,23 @@
+/* Styling the */
+.segment-container {
+  padding-block: 5rem;
+  background-color: hsl(0 0% 0%);
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.segment-content {
+  width: 90%;
+  max-width: 1400px;
+}
+
+.segment-content p {
+  font-size: 1.2rem;
+  padding-block: 1.5rem;
+  color: hsl(0 0% 100%);
+  font-family: "IBM Plex Sans", sans-serif;
+  line-height: 1.7rem;
+  letter-spacing: 1px;
+}
