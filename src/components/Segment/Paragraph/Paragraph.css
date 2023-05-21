@@ -1,0 +1,32 @@
+/* Styling the Paragraph component */
+p {
+  font-size: 1.2rem;
+  padding-block: 1.5rem;
+  color: hsl(0 0% 100%);
+  font-family: "IBM Plex Sans", sans-serif;
+  line-height: 1.7rem;
+  letter-spacing: 1px;
+  position: relative;
+  opacity: 0;
+  transition: 0.7s ease-in-out;
+}
+
+p:nth-child(even) {
+  right: 5vw;
+}
+
+p:nth-child(odd) {
+  left: 5vw;
+}
+
+p.visible {
+  opacity: 1;
+}
+
+p.visible:nth-child(even) {
+  right: 0;
+}
+
+p.visible:nth-child(odd) {
+  left: 0;
+}

@@ -10,8 +10,6 @@ import "./App.css";
 // Importing the images
 import earthBg from "../images/earth_bg.jpg";
 import earth from "../images/earth.png";
-import blackHoleBg from "../images/black_hole_bg.jpg";
-import blackHole from "../images/black_hole.png";
 
 // Creating the App component
 const App = () => {
@@ -55,7 +53,7 @@ const App = () => {
         background={earthBg}
         foreground={earth}
         title="Discover the undiscovered"
-        ref={{ titleRef, backgroundRef }}
+        ref={{ ref1: titleRef, ref2: backgroundRef }}
       />
       <Segment paragraphs={paragraphs} />
     </div>
