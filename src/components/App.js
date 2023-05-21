@@ -36,13 +36,13 @@ const App = () => {
       titleRef1.current.style.marginRight = `${scrollRef.current.scrollTop *
         0.03}vw`;
       backgroundRef1.current.style.marginLeft = `${scrollRef.current.scrollTop *
-        0.003}vw`;
+        0.002}em`;
     }
     if (titleRef2 && titleRef2.current) {
       titleRef2.current.style.marginLeft = `${scrollRef.current.scrollTop *
         0.03}vw`;
       backgroundRef2.current.style.marginLeft = `${scrollRef.current.scrollTop *
-        0.003}vw`;
+        0.002}em`;
     }
   };
 
