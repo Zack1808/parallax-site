@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/parallax-site/precache-manifest.1c8920d18097f171d425154e5a2ba0cc.js"
+  "/parallax-site/precache-manifest.019e126b4bb94fab0db4433c5e3f0571.js"
 );
 
 workbox.clientsClaim();
