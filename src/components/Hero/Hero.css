@@ -95,6 +95,7 @@
   }
 
   .hero-container.right .background {
-    left: -40vw;
+    transform: translateZ(-10px) scale(2.12);
+    left: -30vw;
   }
 }
