@@ -93,4 +93,8 @@
     z-index: 1;
     left: -120vw;
   }
+
+  .hero-container.right .background {
+    left: -40vw;
+  }
 }
