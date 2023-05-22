@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "d71dd333698af62112dd",
-    "url": "/parallax-site/static/css/main.25f6bee2.chunk.css"
+    "revision": "9503636c5177bb0e516a",
+    "url": "/parallax-site/static/css/main.b5e00b30.chunk.css"
   },
   {
-    "revision": "d71dd333698af62112dd",
-    "url": "/parallax-site/static/js/main.d71dd333.chunk.js"
+    "revision": "9503636c5177bb0e516a",
+    "url": "/parallax-site/static/js/main.9503636c.chunk.js"
   },
   {
     "revision": "aaa46b8168ad4f460655",
@@ -32,7 +32,7 @@ self.__precacheManifest = [
     "url": "/parallax-site/static/media/earth2.0f8702d2.png"
   },
   {
-    "revision": "ecb7f8ec3db301d5509374d90a08d45e",
+    "revision": "d58458b460dafd6c85d61ea4aa31724a",
     "url": "/parallax-site/index.html"
   }
 ];

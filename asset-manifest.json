@@ -1,7 +1,7 @@
 {
-  "main.css": "/parallax-site/static/css/main.25f6bee2.chunk.css",
-  "main.js": "/parallax-site/static/js/main.d71dd333.chunk.js",
-  "main.js.map": "/parallax-site/static/js/main.d71dd333.chunk.js.map",
+  "main.css": "/parallax-site/static/css/main.b5e00b30.chunk.css",
+  "main.js": "/parallax-site/static/js/main.9503636c.chunk.js",
+  "main.js.map": "/parallax-site/static/js/main.9503636c.chunk.js.map",
   "static/js/1.aaa46b81.chunk.js": "/parallax-site/static/js/1.aaa46b81.chunk.js",
   "static/js/1.aaa46b81.chunk.js.map": "/parallax-site/static/js/1.aaa46b81.chunk.js.map",
   "runtime~main.js": "/parallax-site/static/js/runtime~main.9b4b3806.js",
@@ -10,8 +10,8 @@
   "static/media/earth.png": "/parallax-site/static/media/earth.b6497727.png",
   "static/media/earth2_bg.jpg": "/parallax-site/static/media/earth2_bg.a868fa51.jpg",
   "static/media/earth2.png": "/parallax-site/static/media/earth2.0f8702d2.png",
-  "static/css/main.25f6bee2.chunk.css.map": "/parallax-site/static/css/main.25f6bee2.chunk.css.map",
+  "static/css/main.b5e00b30.chunk.css.map": "/parallax-site/static/css/main.b5e00b30.chunk.css.map",
   "index.html": "/parallax-site/index.html",
-  "precache-manifest.019e126b4bb94fab0db4433c5e3f0571.js": "/parallax-site/precache-manifest.019e126b4bb94fab0db4433c5e3f0571.js",
+  "precache-manifest.65d422c6ad6ce9ae18d06c1abb8be078.js": "/parallax-site/precache-manifest.65d422c6ad6ce9ae18d06c1abb8be078.js",
   "service-worker.js": "/parallax-site/service-worker.js"
 }
