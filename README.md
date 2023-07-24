@@ -41,7 +41,7 @@ After execution, the localhost server will startup and a browser window will ope
 
 ## Contribution
 
-Contributions to the Yt-clone project are welcome. If you find any issues or want to add new features, feel free to create a pull request. Make sure to follow the project's coding conventions and provide detailed information about your changes.
+Contributions to the parallax page are welcome. If you find any issues or want to add new features, feel free to create a pull request. Make sure to follow the project's coding conventions and provide detailed information about your changes.
 
 ## Contact
 
