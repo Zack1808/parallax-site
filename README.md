@@ -21,13 +21,13 @@ If you want to run the page localy:
 
 #### 1. Clone the repository
 
-- HTTPS: `git clone https://github.com/Zack1808/yt-clone.git`
-- SSH: `git clone git@github.com:Zack1808/yt-clone.git`
-- GitHub CLI: `gh repo clone Zack1808/yt-clone`
+- HTTPS: `git clone https://github.com/Zack1808/parallax-site.git`
+- SSH: `git clone git@github.com:Zack1808/parallax-site.git`
+- GitHub CLI: `gh repo clone Zack1808/parallax-site`
 
 #### 2. Enter the project directory
 
-`cd yt-clone`
+`cd parallax-site`
 
 #### 3. Allow the app to install the necessary packages (Node.js has to be installed on the device)
 
